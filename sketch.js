@@ -102,8 +102,8 @@ function setup(){
     Thanos = new Box(900, 110, 50, 50);
    // log40 = new Log(980,161,18,PI);
 
-    b1 = new Bird(200,50);
-    slingshot = new SlingShot(b1.body,{x:200, y:50});
+   var b1 = new Bird(200,50);
+   var slingshot = new SlingShot(b1.body,{x:200, y:50});
 }
 
 function draw(){
